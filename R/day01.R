@@ -87,7 +87,7 @@
 #' @export
 #' @examples
 #' f01a(example_data_01())
-#' f01b()
+#' f01b(example_data_01())
 f01a <- function(x) {
   x <- as.integer(x)
   counter <- 0
